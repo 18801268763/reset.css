@@ -35,6 +35,12 @@ th, td { /* table elements 表格元素 */
     padding: 0;
 }
 
+/*取消input和textarea的border和outline*/
+input,textarea{
+    border:0;
+    outline: 0;
+}
+
 /* 设置默认字体 */
 body,
 button, input, select, textarea { /* for ie */

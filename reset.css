@@ -36,10 +36,10 @@ th, td { /* table elements 表格元素 */
 }
 
 /*取消input和textarea的border和outline*/
-input,textarea{
+/*input,textarea{
     border:0;
     outline: 0;
-}
+}*/
 
 /* 设置默认字体 */
 body,

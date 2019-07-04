@@ -18,13 +18,6 @@ html {
       color: #333;
 }
 
-/*
-KISSY CSS Reset
-理念：清除和重置是紧密不可分的
-特色：1.适应中文 2.基于最新主流浏览器
-维护：玉伯(lifesinger@gmail.com), 正淳(ragecarrier@gmail.com)
-*/
-
 /* 清除内外边距 */
 body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
 dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
@@ -45,13 +38,14 @@ th, td { /* table elements 表格元素 */
 body,
 button, input, select, textarea { /* for ie */
     /*font: 12px/1 Tahoma, Helvetica, Arial, "宋体", sans-serif;*/
-    font: 14px/1 microsoft yahei, Helvetica, Arial, "\5b8b\4f53", sans-serif; /* 用 ascii 字符表示，使得在任何编码下都无问题 */
+    font: 16px/1 microsoft yahei, Helvetica, Arial, "\5b8b\4f53", sans-serif; /* 用 ascii 字符表示，使得在任何编码下都无问题 */
 }
 
-h1 { font-size: 18px; /* 18px / 12px = 1.5 */ }
+/* 18px / 12px = 1.5 */ 
+/*h1 { font-size: 18px; }
 h2 { font-size: 16px; }
 h3 { font-size: 14px; }
-h4, h5, h6 { font-size: 100%; }
+h4, h5, h6 { font-size: 100%; }*/
 
 address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
 code, kbd, pre, samp, tt { font-family: "Courier New", Courier, monospace; } /* 统一等宽字体 */
